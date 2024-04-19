@@ -1,0 +1,19 @@
+{
+    "name": "d-purple-theme",
+    "displayName": "D Purple Theme",
+    "description": "A custom VS Code theme.",
+    "version": "0.0.1",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+      "themes": [
+        {
+          "label": "D Purple Theme",
+          "uiTheme": "vs-dark",
+          "path": "./themes/d-purple-color-theme.json"
+        }
+      ]
+    }
+  }
